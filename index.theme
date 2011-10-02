@@ -1,0 +1,9 @@
+[X-GNOME-Metatheme]
+Name=Anyaka
+Type=X-GNOME-Metatheme
+Comment=There is another
+Encoding=UTF-8
+GtkTheme=Anyaka
+MetacityTheme=Anyaka
+IconTheme=gnome
+CursorTheme=Neutral
