@@ -80,8 +80,8 @@ StScrollBar StButton#vhandle:hover
 }
 
 StTooltip StLabel {
-    border: 1px solid rgba(255,255,255,0.6);
-    border-radius: 5px;
+    border: 1px solid #222;
+    border-radius: 4px;
     padding: 2px 12px;
     background-color: rgba(0,0,0,0.9);
     color: #ffffff;
@@ -94,9 +94,9 @@ StTooltip StLabel {
 
 .popup-menu-boxpointer {
     -arrow-border-radius: 4px;
-    -arrow-background-color: rgba(16,16,16,0.9);
+    -arrow-background-color: rgba(12,12,12,0.95);
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(255,255,255,0.2);
+    -arrow-border-color: #222;
     -arrow-base: 22px;
     -arrow-rise: 11px;
 }
@@ -445,7 +445,7 @@ StTooltip StLabel {
 }
 
 .workspace-thumbnails-background {
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid #222;
     border-right: 0px;
     border-radius: 4px 0px 0px 4px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -469,7 +469,7 @@ StTooltip StLabel {
 
 .window-caption {
     background: rgba(0,0,0,0.8);
-    border: 1px solid rgba(255,255,255,0.20);
+    border: 1px solid #222;
     border-radius: 4px;
     font-size: 9pt;
     padding: 4px 8px;
@@ -494,7 +494,7 @@ StTooltip StLabel {
     font-size: 9.5pt;
     padding: 4px 0px;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid #222;
     border-left: 0px;
     border-radius: 0px 4px 4px 0px;
 }
@@ -936,7 +936,7 @@ StTooltip StLabel {
 #calendarPopup {
     border-radius: 5px;
     background: rgba(0,0,0,0.9);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid #222;
     color: white;
 }
 
@@ -1478,7 +1478,7 @@ StTooltip StLabel {
 
 .switcher-list {
     background: rgba(0,0,0,0.8);
-    border: 1px solid rgba(255,255,255,0.20);
+    border: 1px solid #222;
     border-radius: 12px;
     padding: 12px;
 
@@ -1565,7 +1565,7 @@ StTooltip StLabel {
 
 .workspace-switcher-container {
     background: rgba(0,0,0,0.8);
-    border: 1px solid rgba(255,255,255,0.20);
+    border: 1px solid #222;
     border-radius: 12px;
     padding: 12px;
 }
@@ -1606,7 +1606,7 @@ StTooltip StLabel {
     font-size: 12pt;
     border-radius: 12px;
     background-color: rgba(0.0, 0.0, 0.0, 0.9);
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid #222;
     color: #babdb6;
 
     padding-right: 42px;
