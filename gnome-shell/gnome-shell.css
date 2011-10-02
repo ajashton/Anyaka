@@ -278,7 +278,7 @@ StTooltip StLabel {
 #panel {
     color: #ffffff;
     background-color: black;
-    border-image: url("panel-border.svg") 1;
+    /*border-image: url("panel-border.svg") 1;*/
     font-size: 10pt;
     font-weight: bold;
     height: 1.86em;
@@ -307,17 +307,17 @@ StTooltip StLabel {
 .panel-corner {
     -panel-corner-radius: 5px;
     -panel-corner-background-color: black;
-    -panel-corner-inner-border-width: 2px;
+/*    -panel-corner-inner-border-width: 2px;
     -panel-corner-inner-border-color: transparent;
     -panel-corner-outer-border-width: 1px;
-    -panel-corner-outer-border-color: #536272;
+    -panel-corner-outer-border-color: #1b2025;*/
 }
 
-.panel-corner:active,
+/*.panel-corner:active,
 .panel-corner:overview,
 .panel-corner:focus {
     -panel-corner-inner-border-color: rgba(255,255,255,0.8);
-}
+}*/
 
 #appMenu {
     spacing: 4px;
