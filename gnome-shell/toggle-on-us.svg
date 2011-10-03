@@ -19,6 +19,18 @@
   <defs
      id="defs2859">
     <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5661">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5663" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5665" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient3953">
       <stop
          id="stop3955"
@@ -84,6 +96,15 @@
        y1="94"
        x2="-856"
        y2="74" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5661"
+       id="linearGradient5667"
+       x1="35"
+       y1="12"
+       x2="30"
+       y2="12"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -92,9 +113,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="52.724617"
-     inkscape:cy="5.8388339"
+     inkscape:zoom="1"
+     inkscape:cx="42.255867"
+     inkscape:cy="5.2763339"
      inkscape:document-units="px"
      inkscape:current-layer="g16453"
      showgrid="false"
@@ -141,7 +162,15 @@
          ry="4"
          transform="scale(-1,1)" />
       <rect
-         style="fill:url(#linearGradient3945);fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+         style="color:#000000;fill:url(#linearGradient5667);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.50196078000000000;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5659"
+         width="5"
+         height="20"
+         x="30"
+         y="1"
+         transform="translate(796,73)" />
+      <rect
+         style="fill:url(#linearGradient3945);fill-opacity:1;stroke:#c8c8c8;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.50196081;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
          id="rect16258-5-4"
          width="32"
          height="21"
