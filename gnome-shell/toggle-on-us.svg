@@ -7,16 +7,40 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="65"
    height="22"
    id="svg2857"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
+   inkscape:version="0.48.2 r9819"
    sodipodi:docname="toggle-on-us.svg">
   <defs
      id="defs2859">
+    <linearGradient
+       id="linearGradient3953">
+      <stop
+         id="stop3955"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:0.1254902;" />
+      <stop
+         id="stop3957"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3939">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop3941" />
+      <stop
+         style="stop-color:#333333;stop-opacity:1"
+         offset="1"
+         id="stop3943" />
+    </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 526.18109 : 1"
@@ -31,6 +55,35 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3939"
+       id="linearGradient3945"
+       x1="-856"
+       y1="94"
+       x2="-856"
+       y2="74"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3953"
+       id="linearGradient3951"
+       gradientUnits="userSpaceOnUse"
+       x1="-856"
+       y1="94"
+       x2="-856"
+       y2="74"
+       gradientTransform="matrix(-0.96875,0,0,-0.95238095,-769.60937,91)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3953"
+       id="linearGradient3962"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.96875,0,0,0.95238095,26.39063,-6)"
+       x1="-856"
+       y1="94"
+       x2="-856"
+       y2="74" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -39,19 +92,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="19.689855"
-     inkscape:cy="2.0517979"
+     inkscape:zoom="16"
+     inkscape:cx="52.724617"
+     inkscape:cy="5.8388339"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g16453"
      showgrid="false"
-     inkscape:window-width="941"
-     inkscape:window-height="751"
-     inkscape:window-x="2577"
-     inkscape:window-y="206"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="775"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
      borderlayer="true"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3947" />
+  </sodipodi:namedview>
   <metadata
      id="metadata2862">
     <rdf:RDF>
@@ -84,34 +141,34 @@
          ry="4"
          transform="scale(-1,1)" />
       <rect
-         style="fill:#000000;fill-opacity:1;stroke:#5f5f5f;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+         style="fill:url(#linearGradient3945);fill-opacity:1;stroke:#666666;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
          id="rect16258-5-4"
-         width="31"
-         height="20"
-         x="-860"
-         y="74"
+         width="32"
+         height="21"
+         x="-860.50006"
+         y="73.5"
          rx="4"
          ry="4"
          transform="scale(-1,1)" />
       <g
-         style="display:inline"
+         style="display:inline;fill:#888888;stroke:#333333"
          id="g16298-3-6"
          transform="matrix(-1,0,0,1,1651.1322,-33.986291)">
         <path
            inkscape:connector-curvature="0"
            id="path16265-3-5"
            d="m 803.6322,115.48629 0,4.29495"
-           style="fill:none;stroke:#5f5f5f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+           style="fill:#888888;stroke:#333333;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
         <path
            inkscape:connector-curvature="0"
            id="path16265-0-2-0"
            d="m 806.62805,115.48629 0,4.29495"
-           style="fill:none;stroke:#5f5f5f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+           style="fill:#888888;stroke:#333333;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
         <path
            inkscape:connector-curvature="0"
            id="path16265-8-7-1"
            d="m 809.6239,115.48629 0,4.29495"
-           style="fill:none;stroke:#5f5f5f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+           style="fill:#888888;stroke:#333333;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
       </g>
       <g
          style="font-size:8.95877075px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
