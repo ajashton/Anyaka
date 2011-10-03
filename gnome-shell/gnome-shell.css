@@ -161,7 +161,8 @@ StTooltip StLabel {
 }
 
 .popup-menu-item:active {
-    background-color: #4A8BF5;
+    text-shadow: 0px 0px 2px #259;
+    background-color: #4a90d9;
 }
 
 .popup-menu-item:insensitive {

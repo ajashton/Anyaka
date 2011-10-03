@@ -83,8 +83,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="54.617454"
-     inkscape:cy="3.3907833"
+     inkscape:cx="12.804512"
+     inkscape:cy="5.6282755"
      inkscape:document-units="px"
      inkscape:current-layer="g16453"
      showgrid="false"
@@ -166,6 +166,12 @@
            d="m 809.6239,115.48629 0,4.29495"
            style="fill:none;stroke:#666666;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
       </g>
+      <path
+         transform="translate(796,51.00002)"
+         inkscape:connector-curvature="0"
+         id="path3867"
+         d="m 16,27.9375 0,10.125"
+         style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:4.6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
          style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          d="m 16,27.9375 0,10.125"
