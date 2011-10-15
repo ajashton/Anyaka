@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Adwaita</name>
-	<author>GNOME Art Team &lt;art.gnome.org&gt;</author>
+	<name>Anyaka</name>
+  <author>AJ Ashton &lt;http://ajashton.ca&gt;</author>
 	<copyright>&#194; Intel, &#194; Red Hat, Lapo Calamandrei</copyright>
-	<date>2010</date>
-	<description>Default GNOME 3 window theme</description>
+	<date>2011</date>
+	<description>Modification of Adwaita, the default GNOME 3 window theme</description>
 </info>
 
 <!-- meaningfull constants -->
@@ -30,9 +30,9 @@
 <!-- geometries -->
 
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="2" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
 	<distance name="title_vertical_pad" value="9"/>
@@ -1061,7 +1061,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="rounded_titlebar_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay" draw_ops="rounded_border_focused" />
+  <!--<piece position="overlay" draw_ops="rounded_border_focused" />-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1110,7 +1110,7 @@
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
-	<piece position="overlay" draw_ops="rounded_border_unfocused" />
+  <!--<piece position="overlay" draw_ops="rounded_border_unfocused" />-->
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
@@ -1223,7 +1223,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay"><draw_ops><line x1="0" y1="height-1" x2="width" y2="height-1" color="C_border_focused" /></draw_ops></piece>
+  <!--<piece position="overlay"><draw_ops><line x1="0" y1="height-1" x2="width" y2="height-1" color="C_border_focused" /></draw_ops></piece>-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1305,7 +1305,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="rounded_titlebar_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay" draw_ops="rounded_border_focused" />
+  <!--<piece position="overlay" draw_ops="rounded_border_focused" />-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1354,7 +1354,7 @@
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
-	<piece position="overlay" draw_ops="rounded_border_unfocused" />
+  <!--<piece position="overlay" draw_ops="rounded_border_unfocused" />-->
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
@@ -1385,7 +1385,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="titlebar_attached_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay" draw_ops="border_focused" />
+  <!--<piece position="overlay" draw_ops="border_focused" />-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1433,7 +1433,7 @@
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
-	<piece position="overlay" draw_ops="border_unfocused" />
+  <!--<piece position="overlay" draw_ops="border_unfocused" />-->
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
@@ -1466,7 +1466,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="titlebar_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay" draw_ops="border_focused" />
+  <!--<piece position="overlay" draw_ops="border_focused" />-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1517,7 +1517,7 @@
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
-	<piece position="overlay" draw_ops="border_unfocused" />
+  <!--<piece position="overlay" draw_ops="border_unfocused" />-->
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
@@ -1548,7 +1548,7 @@
 
 <frame_style name="border_focused" geometry="borderless">
 	<piece position="entire_background" draw_ops="entire_background_focused" />
-	<piece position="overlay" draw_ops="border_focused" />
+  <!--<piece position="overlay" draw_ops="border_focused" />-->
 	<button function="close" state="normal"><draw_ops></draw_ops></button>
 	<button function="close" state="pressed"><draw_ops></draw_ops></button>
 	<button function="maximize" state="normal"><draw_ops></draw_ops></button>
@@ -1573,7 +1573,7 @@
 
 <frame_style name="border_unfocused" geometry="borderless">
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
-	<piece position="overlay" draw_ops="border_unfocused" />
+  <!--<piece position="overlay" draw_ops="border_unfocused" />-->
 	<button function="close" state="normal"><draw_ops></draw_ops></button>
 	<button function="close" state="pressed"><draw_ops></draw_ops></button>
 	<button function="maximize" state="normal"><draw_ops></draw_ops></button>
@@ -1599,7 +1599,7 @@
 <frame_style name="attached_focused" geometry="attached">
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="titlebar_attached_focused" />
-	<piece position="overlay" draw_ops="border_attached_focused" />
+  <!--<piece position="overlay" draw_ops="border_attached_focused" />-->
 	<button function="close" state="normal"><draw_ops></draw_ops></button>
 	<button function="close" state="pressed"><draw_ops></draw_ops></button>
 	<button function="maximize" state="normal"><draw_ops></draw_ops></button>
@@ -1624,7 +1624,7 @@
 
 <frame_style name="attached_unfocused" geometry="attached">
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
-	<piece position="overlay" draw_ops="border_unfocused" />
+  <!--<piece position="overlay" draw_ops="border_unfocused" />-->
 	<button function="close" state="normal"><draw_ops></draw_ops></button>
 	<button function="close" state="pressed"><draw_ops></draw_ops></button>
 	<button function="maximize" state="normal"><draw_ops></draw_ops></button>
@@ -1651,7 +1651,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay" draw_ops="border_right_focused" />
+  <!--<piece position="overlay" draw_ops="border_right_focused" />-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1700,7 +1700,7 @@
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
-	<piece position="overlay" draw_ops="border_right_unfocused" />
+  <!--<piece position="overlay" draw_ops="border_right_unfocused" />-->
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
@@ -1733,7 +1733,7 @@
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_focused" />
 	<piece position="title" draw_ops="title_focused" />
-	<piece position="overlay" draw_ops="border_left_focused" />
+  <!--<piece position="overlay" draw_ops="border_left_focused" />-->
 	<button function="close" state="normal" draw_ops="close_focused" />
 	<button function="close" state="pressed" draw_ops="close_focused_pressed" />
 	<button function="maximize" state="normal" draw_ops="maximize_focused" />
@@ -1782,7 +1782,7 @@
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
-	<piece position="overlay" draw_ops="border_left_unfocused" />
+  <!--<piece position="overlay" draw_ops="border_left_unfocused" />-->
 	<button function="close" state="normal" draw_ops="close_unfocused"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
