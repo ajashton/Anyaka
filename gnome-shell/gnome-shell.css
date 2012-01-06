@@ -46,7 +46,7 @@ StScrollView.vfade
 
 StScrollView StScrollBar
 {
-  min-width: 16px;
+  min-width: 16px; 
   min-height: 16px;
 }
 
@@ -263,7 +263,7 @@ StTooltip StLabel {
 .dash-search-button:selected, .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-    border: 2px solid #8b8b8b;
+    border: 1px solid #222;
 }
 
 .dash-search-button:active, .dash-search-button:pressed,
@@ -280,8 +280,8 @@ StTooltip StLabel {
     color: #ffffff;
     background-color: black;
     /*border-image: url("panel-border.svg") 1;*/
-    font-size: 10pt;
-    font-weight: bold;
+    font-size: 10.5pt;
+    font-weight: normal;
     height: 1.86em;
 }
 
@@ -344,7 +344,7 @@ StTooltip StLabel {
     -minimum-hpadding: 6px;
     font-weight: bold;
     color: #ccc;
-    transition-duration: 100;
+    transition-duration: 200;
 }
 
 .panel-button:hover {
@@ -1170,11 +1170,11 @@ StTooltip StLabel {
 }
 
 .summary-boxpointer {
-    -arrow-border-radius: 8px;
-    -arrow-background-color: rgba(0,0,0,0.9);
-    -arrow-border-width: 2px;
-    -arrow-border-color: #a5a5a5;
-    -arrow-base: 24px;
+    -arrow-border-radius: 4px;
+    -arrow-background-color: rgba(12,12,12,0.95);
+    -arrow-border-width: 1px;
+    -arrow-border-color: #222;
+    -arrow-base: 22px;
     -arrow-rise: 11px;
     color: white;
 }
@@ -1186,9 +1186,8 @@ StTooltip StLabel {
 }
 
 .summary-boxpointer #summary-right-click-menu {
-    font-size: 10.5pt;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    font-size: 10pt;
+    padding: 0.5em 0em;
 }
 
 #summary-notification-stack-scrollview {
@@ -1479,7 +1478,7 @@ StTooltip StLabel {
 
 .switcher-list {
     background: rgba(0,0,0,0.8);
-    border: 1px solid #222;
+    border: 0px solid #222;
     border-radius: 12px;
     padding: 12px;
 
@@ -1513,16 +1512,18 @@ StTooltip StLabel {
 
 .switcher-list .item-box {
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .switcher-list .item-box:outlined {
     padding: 6px;
-    border: 2px solid rgba(85,85,85,1.0);
+    border: 2px solid rgba(255,255,255,1.0);
 }
 
 .switcher-list .item-box:selected {
     background: rgba(255,255,255,0.33);
+    padding: 6px;
+    border: 2px solid rgba(255,255,255,1.0);
 }
 
 .switcher-list .thumbnail-box {
@@ -1566,7 +1567,7 @@ StTooltip StLabel {
 
 .workspace-switcher-container {
     background: rgba(0,0,0,0.8);
-    border: 1px solid #222;
+    border: 0px solid #222;
     border-radius: 12px;
     padding: 12px;
 }
@@ -1596,8 +1597,8 @@ StTooltip StLabel {
 }
 
 .ws-switcher-box {
-    height: 96px;
-    border: 2px solid rgba(85,85,85,0.5);
+    height: 98px;
+    border: 1px solid rgba(85,85,85,0.5);
     background: transparent;
     border-radius: 4px;
 }
@@ -1607,7 +1608,7 @@ StTooltip StLabel {
     font-size: 12pt;
     border-radius: 12px;
     background-color: rgba(0.0, 0.0, 0.0, 0.9);
-    border: 1px solid #222;
+    border: 0px solid #222;
     color: #babdb6;
 
     padding-right: 42px;
