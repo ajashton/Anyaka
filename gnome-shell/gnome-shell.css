@@ -18,7 +18,8 @@
  */
 
 stage {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .shell-link {
@@ -281,7 +282,7 @@ StTooltip StLabel {
     background-color: black;
     /*border-image: url("panel-border.svg") 1;*/
     font-size: 10.5pt;
-    font-weight: normal;
+    font-weight: bold;
     height: 1.86em;
 }
 
